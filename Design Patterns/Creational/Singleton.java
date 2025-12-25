@@ -1,5 +1,5 @@
-import javax.xml.crypto.Data;
 
+// Example of Singleton Design Pattern in Java
 public class Singleton {
     public static void main(String[] args) {
         DatabaseConnection db=DatabaseConnection.getInstance();
